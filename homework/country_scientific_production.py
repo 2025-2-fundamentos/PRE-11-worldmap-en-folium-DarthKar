@@ -29,7 +29,7 @@ def remove_na_rows(affiliations):
     affiliations = affiliations.copy()
     affiliations = affiliations.dropna(subset=["Affiliations"])
 
-    return affiliationsgithu
+    return affiliations
 
 
 def add_countries_column(affiliations):
