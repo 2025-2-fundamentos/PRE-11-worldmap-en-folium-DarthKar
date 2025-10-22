@@ -1,6 +1,5 @@
 ## country_scientific_production.py
 
-
 """Taller Presencial Evaluable"""
 
 import os
@@ -30,7 +29,7 @@ def remove_na_rows(affiliations):
     affiliations = affiliations.copy()
     affiliations = affiliations.dropna(subset=["Affiliations"])
 
-    return affiliations
+    return affiliationsgithu
 
 
 def add_countries_column(affiliations):
